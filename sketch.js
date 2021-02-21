@@ -25,11 +25,11 @@ foodStock.on("value",readStock);
 
 feed = createButton("FEED THE DOG");
 feed.position(700,95);
-feed.mousepressed(dogImg);
+feed.mousePressed(dogImg);
 
 addFood = createButton("ADD FOOD");
 addFood.position(800,95);
-addFood.mousepressed(addFoods);
+addFood.mousePressed(addFoods);
 }
 
 
